@@ -3,3 +3,72 @@
 @import "tailwindcss/utilities";
 
 @import "custom.css";
+
+.logo{
+    float: left;
+    margin: 30px;
+}
+#masthead{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#site-navigation{
+    width: 70%;
+}
+#primary-menu{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+}
+#primary-menu a{
+    color: #25455a;
+    font-weight: 600;
+}
+.custom-logo{
+    height: 120px;
+    width: 120px;
+}
+header{
+}
+
+.entry-content{
+    width: 66%;
+    margin: 0 auto;
+    text-align: center;
+    color: #dfc9ab;
+    font-size: 2rem;
+    font-weight: 400;
+}
+h1{
+    color: #dfc9ab;
+    font-weight: 500;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.teacher-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; 
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.teacher-item{
+    width: 200px;
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+.teacher-image{
+    margin: auto;
+    width: fit-content;
+}
+.teacher-image img{
+    border-radius: 50px;
+}

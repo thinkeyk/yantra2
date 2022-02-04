@@ -1,11 +1,15 @@
 /*
 Theme Name: Yantra 2
-Theme URI: https://github.com/jeffreyvr/example_theme
-Author: Jeffrey van Rossum
-Author URI: https://vanrossum.dev
-Description: A WordPress theme made with TailPress.
-Version: 0.1.0
+Theme URI: https://github.com/thinkeyk/yantra2
+Author: Thinley Koblensky
+Author URI: https://yantrayoga.net
+Description: Made for Movement
+Version: 2.0.0
 License: MIT
-License URI: https://github.com/jeffreyvr/example_theme/blob/master/LICENSE
+License URI: https://github.com/thinkeyk/yantra2/blob/main/LICENSE
 Text Domain: example_theme
 */
+
+.logo{
+    float: left
+}
